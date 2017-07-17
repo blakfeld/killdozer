@@ -1,0 +1,12 @@
+<RoutingRules>
+    <RoutingRule>
+        <Condition>
+            <HttpErrorCodeReturnedEquals>403</HttpErrorCodeReturnedEquals>
+        </Condition>
+        <Redirect>
+            <Protocol>https</Protocol>
+            <HostName>www.twitch.tv</HostName>
+            <ReplaceKeyPrefixWith>killdozerbot</ReplaceKeyPrefixWith>
+        </Redirect>
+    </RoutingRule>
+</RoutingRules>
